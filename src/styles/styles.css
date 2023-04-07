@@ -17,10 +17,12 @@
 }
 
 body{
-
+    font-family: var(--font-open-sans);
     font-size: 16px;
 }
-.h1{
+.h2{
+    font-family: var(--font-open-sans);
+    font-size: 2.25rem;
 
 }
 
@@ -30,7 +32,7 @@ body{
 }
 .intro {}
 .header{
-    height: 70px;
+    height: 4.375rem;
     box-shadow: 0 3px 6px rgba(0, 0, 0, .16) ;
 }
 .header .header__inner {
@@ -64,9 +66,16 @@ body{
      letter-spacing: 0.1875rem;
     font-family: var(--font-open-sans);
 }
-.mainMenu__item.mainMenu__item--active {
+.mainMenu__item:hover {
     color: var(--black);
+    background-color: var(--primary-color);
+    content: '';
+    height: 0;
+    width: 0.625rem;
+
 }
+
+
 
 
 
@@ -117,4 +126,22 @@ body{
 .hero .hero__image{
     width: 100%;
     height: auto;
+}
+
+.statistics {
+    padding-top: 6.25rem;
+    padding-bottom: 6.3125rem;
+}
+.container {}
+
+
+.statistics__title {
+    text-align: center;
+}
+
+.cols {
+    max-width: 50rem;
+    margin: 6.25rem auto 7.5rem;
+    display: flex;
+    justify-content: space-between;
 }
