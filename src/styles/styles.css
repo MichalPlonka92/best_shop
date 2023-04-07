@@ -23,3 +23,18 @@ body{
 a{
     text-decoration: none;
 }
+.intro {}
+.header{}
+.header .header__inner {}
+.logo {}
+.logo .logo__text {}
+
+.mainMenu {}
+.mainMenu .mainMenu__item {}
+.mainMenu .mainMenu__item.mainMenu__item--active{}
+
+.hero{}
+.hero .hero__hdl{}
+.hero .hero__lead{}
+.hero .hero__btn{}
+.hero .hero__btn.hero__btn--primary{}
