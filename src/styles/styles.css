@@ -17,24 +17,98 @@
 }
 
 body{
-    font-family: var(--font-open-sans);
+
+    font-size: 16px;
+}
+.h1{
+
 }
 
-a{
-    text-decoration: none;
+.inner{
+    width: 84.5rem;
+    margin: 0 auto;
 }
 .intro {}
-.header{}
-.header .header__inner {}
-.logo {}
-.logo .logo__text {}
+.header{
+    height: 70px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16) ;
+}
+.header .header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.logo {
+    font-family: var(--font-raleway);
+    font-size: 2rem;
+    font-weight: 300;
+    color: var(--primary-color);
+    text-decoration: none;
 
-.mainMenu {}
-.mainMenu .mainMenu__item {}
-.mainMenu .mainMenu__item.mainMenu__item--active{}
+}
 
-.hero{}
-.hero .hero__hdl{}
-.hero .hero__lead{}
-.hero .hero__btn{}
-.hero .hero__btn.hero__btn--primary{}
+
+.mainMenu {
+    padding: 0 1.625rem;
+
+}
+.mainMenu__item {
+     color: var(--grey);
+     font-weight: 700;
+     font-size: 0.6875rem;
+     text-transform: uppercase;
+     text-decoration: none;
+     padding: 1.75rem 1.125rem 1.375rem;
+     border-bottom: 0.25rem solid transparent;
+     letter-spacing: 0.1875rem;
+    font-family: var(--font-open-sans);
+}
+.mainMenu__item.mainMenu__item--active {
+    color: var(--black);
+
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero__content{
+    margin-top: 8.125rem;
+    text-align: center;
+}
+.hero .hero__hdl{
+    font-family: var(--font-raleway);
+    color: var(--black);
+    font-size: 3.0625rem;
+
+}
+.hero .hero__lead{
+    color: var(--black);
+    font-size: 1rem;
+    margin-top: 1.25rem;
+    margin-bottom: 2.375rem;
+}
+.hero .hero__btn{
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 1.375;
+    color: var(--white);
+    background-color: var(--primary-color);
+    display: inline-block;
+    min-width: 27.5rem;
+    padding: 1.375rem;
+    border-radius: 2.5rem;
+    transition: all 400ms ease-in-out;
+    font-family: var(--font-open-sans);
+    text-align: center;
+}
+.hero .hero__btn.hero__btn--primary{
+
+}
+
+
+.hero .hero__image{
+    width: 100%;
+    height: auto;
+}
